@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  text-align: center;
+
+  background-color: darksalmon;
+  min-height: 80vh;
+}

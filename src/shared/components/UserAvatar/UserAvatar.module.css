@@ -1,0 +1,22 @@
+.circle {
+  display: inline-block;
+
+  border: 2px solid gray;
+
+  border-radius: 50%;
+
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.circle:hover {
+  transform: scale(0.9);
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
