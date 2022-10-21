@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
-import UserInfo from "../UserInfo";
 
-import UserList from "../UserList";
+import UserList from "shared/components/UserList";
+import UserInfo from "shared/components/UserInfo";
 
 import s from "./UsersWidget.module.css";
 

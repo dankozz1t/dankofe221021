@@ -5,3 +5,8 @@
   align-items: center;
   gap: 5px;
 }
+
+.contactBox {
+  display: flex;
+  gap: 10px;
+}

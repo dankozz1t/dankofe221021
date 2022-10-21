@@ -7,11 +7,5 @@ export const usersSlice = createSlice({
   initialState: {
     users: initUsersData,
   },
-  reducers: {
-    setUsers(state, { payload }) {
-      state.users = payload;
-    },
-  },
+  reducers: {},
 });
-
-export const { setFilter } = usersSlice.actions;

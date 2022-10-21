@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Button from "../Button";
-import UserItem from "../UserItem";
+
+import Button from "shared/components/Button";
+import UserItem from "shared/components/UserItem";
 
 import s from "./UserList.module.css";
 
