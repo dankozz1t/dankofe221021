@@ -11,9 +11,8 @@ const Main = () => {
   const users = useSelector(getUsers, shallowEqual);
 
   return (
-    <main className={s.main}>
+    <main className={s.mainBgBox}>
       <Container>
-        <h1>Hello!</h1>
         <UsersWidget users={users} />
       </Container>
     </main>
