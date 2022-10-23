@@ -1,8 +1,7 @@
-.box {
-  padding: 20px;
+.widgetBgBox {
+  width: 350px;
+  border: 2px solid var(--secondary-bg-color);
+  border-radius: 2px;
 
-  border: 2px solid grey;
-  border-radius: 20px;
-
-  background-color: aliceblue;
+  background-color: var(--primary-bg-color);
 }

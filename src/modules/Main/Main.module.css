@@ -1,7 +1,12 @@
-.main {
+.mainBgBox {
   display: flex;
   text-align: center;
+  padding: 20px;
 
-  background-color: darksalmon;
+  background-color: var(--main-bg-color);
   min-height: 80vh;
+}
+
+.text {
+  margin-bottom: 10px;
 }

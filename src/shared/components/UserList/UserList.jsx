@@ -33,7 +33,11 @@ const UserList = ({ users, onViewUserInfo }) => {
           />
         ))}
       </ul>
-      {isShowBtn && <Button onClick={handleViewAllClick}>View All</Button>}
+      {isShowBtn && (
+        <Button maxSize onClick={handleViewAllClick}>
+          View All
+        </Button>
+      )}
     </>
   );
 };

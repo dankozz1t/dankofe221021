@@ -21,7 +21,7 @@ const UsersWidget = ({ users }) => {
   };
 
   return (
-    <div className={s.box}>
+    <div className={s.widgetBgBox}>
       {viewUserInfo ? (
         <UserInfo user={userNow.current} onViewUserInfo={handleViewUserInfo} />
       ) : (

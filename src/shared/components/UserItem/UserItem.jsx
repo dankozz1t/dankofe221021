@@ -6,15 +6,18 @@ import UserAvatar from "shared/components/UserAvatar";
 import s from "./UserItem.module.css";
 
 const UserItem = ({ nickname, name, photo, onViewUserInfo }) => {
-  const userPhoto = `assets/images/${photo}`;
+  const userPhoto = `images/${photo}`;
 
   return (
     <li className={s.item}>
-      <UserAvatar src={userPhoto} alt={nickname} width="50" height="50" />
-      <div>
-        <h3>{name}</h3>
-        <p>{nickname}</p>
+      <div className={s.dataBox}>
+        <UserAvatar src={userPhoto} alt={nickname} size="50px" />
+        <div>
+          <h3 className={s.name}>{name}</h3>
+          <p className={s.nickname}>{nickname}</p>
+        </div>
       </div>
+
       <Button onClick={() => onViewUserInfo(nickname)}>View</Button>
     </li>
   );

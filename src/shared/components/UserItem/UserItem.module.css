@@ -1,5 +1,23 @@
 .item {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
+  align-items: center;
+  padding: 10px;
+
+  text-align: start;
+  border-bottom: 0.4px solid var(--secondary-bg-color);
+}
+
+.dataBox {
+  display: flex;
+  gap: 15px;
+}
+
+.name {
+  color: var(--primary-text-color);
+  margin-bottom: 5px;
+}
+
+.nickname {
+  color: var(--secondary-text-color);
 }

@@ -1,4 +1,4 @@
 .header {
-  background-color: bisque;
+  background-color: var(--header-bg-color);
   min-height: 10vh;
 }

@@ -1,4 +1,4 @@
 .footer {
-  background-color: silver;
+  background-color: var(--footer-bg-color);
   min-height: 10vh;
 }
