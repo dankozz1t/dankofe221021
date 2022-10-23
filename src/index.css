@@ -6,6 +6,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #e9eaec;
+
+  --primary-text-color: #000000;
+  --secondary-text-color: rgba(0, 0, 0, 0.8);
+
+  --accent-text-color: #ffffff;
+  --accent-bg-color: #5046e5;
+  --accent-border-color: #4237e3;
+
+  --header-bg-color: #256d85;
+  --main-bg-color: #2b4865;
+  --footer-bg-color: #256d85;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
